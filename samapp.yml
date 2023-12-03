@@ -4,7 +4,7 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     #url: jdbc:sqlserver://192.168.56.101:1433;database=muqeem #local VM Docker DB
-    url: jdbc:sqlserver://localhost:1433;database=samapp  #LOCALHOST DB
+    url: jdbc:sqlserver://localhost:1433;database=samapp;trustServerCertificate=true;useSSL=false;  #LOCALHOST DB
     #url: jdbc:sqlserver://192.168.45.195:1433;database=newmuqeem_qa6  #QA DB
     username: sa
     password: Rammy1026$ #LOCALHOST DB
