@@ -1,7 +1,20 @@
 spring:
   application:
     name: TestApplication
-
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    #url: jdbc:sqlserver://192.168.56.101:1433;database=muqeem #local VM Docker DB
+    url: jdbc:sqlserver://localhost:1433;database=samapp  #LOCALHOST DB
+    #url: jdbc:sqlserver://192.168.45.195:1433;database=newmuqeem_qa6  #QA DB
+    username: sa
+    password: Rammy1026$ #LOCALHOST DB
+    #password: Aa123456 #QA DB
+    hikari:
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
 server:
   port: 8086
 
