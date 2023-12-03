@@ -8,7 +8,6 @@ spring:
     #url: jdbc:sqlserver://192.168.45.195:1433;database=newmuqeem_qa6  #QA DB
     username: sa
     password: Rammy1026$ #LOCALHOST DB
-    #password: Aa123456 #QA DB
     hikari:
       data-source-properties:
         cachePrepStmts: true
