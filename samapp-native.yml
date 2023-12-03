@@ -1,6 +1,6 @@
 spring:
   application:
-    name: TestApplication
+    name: samapp
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     #url: jdbc:sqlserver://192.168.56.101:1433;database=muqeem #local VM Docker DB
