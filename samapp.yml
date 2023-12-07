@@ -25,5 +25,5 @@ management:
       exposure:
         include: '*'
 
-hello:
-  rel: dj
+application:
+    hellow-world: Ramesh Kumar Gundi
